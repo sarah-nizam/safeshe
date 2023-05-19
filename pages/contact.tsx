@@ -51,64 +51,7 @@ const useStyles = createStyles((theme) => ({
         borderRadius:rem(10),
 
       },
-      
-
-    
-    card: {
-        height: rem(200),
-        color: theme.colors.brand[6],
-        flex: 1,
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        gap: rem(40),
-        minWidth: rem(250),
-
-        "& .icon": {
-            display: "block",
-            width: rem(80),
-            height: rem(80),
-            backgroundColor: theme.colors.brand[6],
-        },
-
-       
-
-        "&:hover": {
-            background: theme.colors.brand[6],
-            color: "white",
-
-            "& .icon": {
-                backgroundColor: "white",
-            },
-        },
-    },
-
-    icon: {},
-
-    icontext: {
-        fontWeight: 500,
-        fontSize: rem(18),
-    },
-
-    title: {
-        fontWeight: 500,
-        fontSize: rem(44),
-    },
-
-    subTitle: {
-        fontSize: rem(20),
-        color: theme.colors.gray[6],
-    },
-
-    heading: {
-        textAlign: "center",
-        marginBottom: rem(20),
-    },
-    linkClass:{
-        textDecoration:'none',
-    },
-}))
+  }))
 
 interface FormValues {
   name: string;
