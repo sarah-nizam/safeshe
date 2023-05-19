@@ -13,6 +13,7 @@ import {
 } from "@mantine/core"
 import Link from "next/link"
 
+
 const useStyles = createStyles((theme) => ({
     root: {
         marginTop: rem(120),
@@ -115,7 +116,7 @@ export default function Services() {
                 </span>
             </div>
             <div className={classes.flex}>
-            <Link className={classes.linkClass} href="/revv">
+            <Link className={classes.linkClass} href="/contact">
                 <Paper shadow="md" p="xl" radius="xl" className={classes.card}>
                     <span className="review icon"></span>
                     
@@ -135,12 +136,14 @@ export default function Services() {
                 </Paper>
                 </Link>
 
+                <Link className={classes.linkClass} href="/cam">
                 <Paper shadow="md" p="xl" radius="xl" className={classes.card}>
                     <span className="evidence icon"></span>
                     <span className={classes.icontext}>
                         Record Evidence
                     </span>
                 </Paper>
+                </Link>
 
                 <Link className={classes.linkClass} href="https://www.google.com/search?q=police+stations+near+me&rlz=1C1CHZN_enIN977IN977&oq=police+stations+near+me&aqs=chrome..69i57j0i512l5j0i22i30l4.8499j0j7&sourceid=chrome&ie=UTF-8#bsht=Cgdic2h3Y2hwEgQIBDAB">
                 <Paper shadow="md" p="xl" radius="xl" className={classes.card}>
@@ -148,9 +151,13 @@ export default function Services() {
                     <span className={classes.icontext}>Help Near Me</span>                   
                 </Paper>
                 </Link>
+                
+
+
             </div>
         </div>
 
     )
 
 }
+

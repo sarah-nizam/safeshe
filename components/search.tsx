@@ -13,6 +13,7 @@ import {
 
 const useStyles = createStyles((theme) => ({
   sosb:{
+    cursor:"pointer",
     height:rem(100),
     width:rem(250),
     borderRadius:10,

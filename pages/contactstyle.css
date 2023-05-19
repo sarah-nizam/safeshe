@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.contactform h1
+{
+    margin-top: -50px;
+    padding: 12px 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+   
+}
+.contactform form{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-check{
+flex-direction: row;
+}
+#form-check input{
+width: 50px;
+margin: 2px;
+}
+.contactform form input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 6px 6px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: rgb(129, 129, 67);
+}
+.buttons2 button
+{
+    margin-right: 100px;
+    margin-top: 34px;
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.buttons2 button:hover{
+    color: black;
+    background-color: white;
+}
+@media (max-width: 1100px) {
+    *{
+  /*background-color: red;*/
+  }
+  .contactform{
+    margin: 5px;
+  }
+  .buttons2 button{
+    margin-right: 100px;
+  }
+  #form-check input{
+    width: 20px;
+    margin: 10px;
+    }
+    .contactform form input{
+        width: 50vw;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+        padding: 3px;
+    }
+    .contactform{
+        
+        padding-top: 50px;
+        
+       
+    }
+}
